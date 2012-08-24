@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>What up <%= @user.name %>!</h1>
+    <p>
+      Just thought I'd let you know where we are going to be today!
+    </p>
+    <% @locations.each do |loaction| %>
+      <b><%= location.date %></b> <i><%= location.title %></i><br>
+      Don't know where that is? Weird. You must be a tourist. Well here's a <%= link_to 'map', @location.url %>
+      <br>
+    <% end %>
+    <p>Thanks and have a great day!</p>
+  </body>
+</html>
