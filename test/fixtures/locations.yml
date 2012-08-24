@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2012-08-23
+  location: MyString
+  locationURL: MyString
+  open_to_public: false
+
+two:
+  date: 2012-08-23
+  location: MyString
+  locationURL: MyString
+  open_to_public: false
